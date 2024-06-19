@@ -1,0 +1,20 @@
+body {
+    background-color: burlywood;
+}
+
+.pelota {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 132);
+    /* transition-property: width, height; */
+    /* transition-duration: 1s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease; */
+    transition: width 1s ease;
+}
+
+.pelota:hover {
+    width: 200px;
+    height: 200px;
+}
